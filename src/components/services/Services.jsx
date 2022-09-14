@@ -16,23 +16,27 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <AiFillCheckCircle className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p>Website hosting through Amazon Web Services</p>
             </li>
             <li>
               <AiFillCheckCircle className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p>Cloud Infrastructure</p>
             </li>
             <li>
               <AiFillCheckCircle className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p>Scaling</p>
             </li>
             <li>
               <AiFillCheckCircle className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p>Data Storage</p>
             </li>
             <li>
               <AiFillCheckCircle className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p>Load Balancing</p>
+            </li>
+            <li>
+              <AiFillCheckCircle className='service__list-icon'/>
+              <p>Metrics, Tracking, and Logging</p>
             </li>
           </ul>
         </article>
@@ -44,23 +48,27 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <AiFillCheckCircle className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p>User Interface Design</p>
             </li>
             <li>
               <AiFillCheckCircle className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p>Miscellaneous Design Work (Logos, Letterheads, etc)</p>
             </li>
             <li>
               <AiFillCheckCircle className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p>Front-end Development</p>
             </li>
             <li>
               <AiFillCheckCircle className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p>Bank-end Development</p>
             </li>
             <li>
               <AiFillCheckCircle className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p>Database Design</p>
+            </li>
+            <li>
+              <AiFillCheckCircle className='service__list-icon'/>
+              <p>Database Development</p>
             </li>
           </ul>
         </article>
@@ -72,23 +80,23 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <AiFillCheckCircle className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p>System Design</p>
             </li>
             <li>
               <AiFillCheckCircle className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p>E-commerce applications</p>
             </li>
             <li>
               <AiFillCheckCircle className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p>Security</p>
             </li>
             <li>
               <AiFillCheckCircle className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p>Data Storage and Utilization</p>
             </li>
             <li>
               <AiFillCheckCircle className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p>Willing to discuss solutions to any IT related problem you may have</p>
             </li>
           </ul>
         </article>

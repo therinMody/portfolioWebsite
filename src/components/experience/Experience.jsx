@@ -60,7 +60,7 @@ const Experience = () => {
               <AiFillCheckCircle  className='experience__details-icon'/>
               <div>
                 <h4>Python</h4>
-                <small className="text-light">Average</small>
+                <small className="text-light">Novice</small>
               </div>
 
             </article>
@@ -68,14 +68,30 @@ const Experience = () => {
               <AiFillCheckCircle  className='experience__details-icon'/>
               <div>
                 <h4>Node JS</h4>
-                <small className="text-light">Average</small>
+                <small className="text-light">Novice</small>
               </div>
 
             </article>
             <article className='experience__details'>
               <AiFillCheckCircle  className='experience__details-icon'/>
               <div>
-                <h4>SQL</h4>
+                <h4>MySQL</h4>
+                <small className="text-light">Novice</small>
+              </div>
+
+            </article>
+            <article className='experience__details'>
+              <AiFillCheckCircle className='experience__details-icon'/>
+              <div>
+                <h4>Oracle</h4>
+                <small className="text-light">Advanced</small>
+              </div>
+
+            </article>
+            <article className='experience__details'>
+              <AiFillCheckCircle className='experience__details-icon'/>
+              <div>
+                <h4>Apollo</h4>
                 <small className="text-light">Average</small>
               </div>
 
@@ -83,7 +99,15 @@ const Experience = () => {
             <article className='experience__details'>
               <AiFillCheckCircle className='experience__details-icon'/>
               <div>
-                <h4>Git</h4>
+                <h4>GraphQL</h4>
+                <small className="text-light">Average</small>
+              </div>
+
+            </article>
+            <article className='experience__details'>
+              <AiFillCheckCircle className='experience__details-icon'/>
+              <div>
+                <h4>AWS</h4>
                 <small className="text-light">Average</small>
               </div>
 

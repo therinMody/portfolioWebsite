@@ -23,7 +23,7 @@ const About = () => {
             <article className='about__card'>
               <BiAward className='about__icon' />
               <h5>Experience</h5>
-              <small>None professional</small>
+              <small>None</small>
             </article>
             <article className='about__card'>
               <FiUsers className='about__icon' />
@@ -38,11 +38,14 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Cras ut volutpat purus. Suspendisse non finibus lacus, placerat vestibulum augue.
-            Phasellus eu diam tempor, consectetur eros quis, elementum leo. Phasellus et sapien elementum, aliquet ipsum sed, sagittis diam. Donec ullamcorper vehicula sem, eu feugiat enim.
-            Ut euismod dui libero, vitae rutrum ex aliquam a.
-            Mauris venenatis mollis elit id lobortis.
+            Hello, I'm Therin Mody and I love to build websites.<br/>
+            I am 23 years old and located in Calgary, 
+            AB, Canada. <br />
+            I am a Southern Alberta Institute of Technology graduate 
+            and currently in pursuit of my AWS Developer
+             - Associate certification.
+            <br />I am open to discuss opportunities and currently seeking new clients. Drop me a message if you're
+            interested in my <a href="#services">services</a>!
           </p>
 
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
