@@ -1,9 +1,21 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import './contact.css';
-import {AiOutlineMail} from 'react-icons/ai';
-import {RiMessengerLine} from 'react-icons/ri';
+import { AiOutlineMail } from 'react-icons/ai';
+import { RiMessengerLine } from 'react-icons/ri';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm("service_z72n3qb", "template_l0f3sdc", form.current, "vFrBuUNDq6PrvUHA6");
+
+    e.target.reset();
+  };
+
   return (
     <section id='contact'>
       <h5>Get In Touch</h5>
@@ -12,19 +24,19 @@ const Contact = () => {
       <div className="container contact__container">
         <div className="contact__options">
           <article className='contact__option'>
-            <AiOutlineMail className='contact__option-icon'/>
+            <AiOutlineMail className='contact__option-icon' />
             <h4>Email</h4>
             <h5>therin.mody@outlook.com</h5>
             <a href="mailto:therin.mody@outlook.com">Send a Message</a>
           </article>
           <article className='contact__option'>
-            <RiMessengerLine className='contact__option-icon'/>
+            <RiMessengerLine className='contact__option-icon' />
             <h4>Messenger</h4>
             <h5>Therin Mody</h5>
             <a href="https://m.me/therinmody">Send a Message</a>
           </article>
         </div>
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Your Full Name' required />
           <input type="email" name='email' placeholder='Your Email' required />
           <textarea name='message' rows='7' placeholder="Your message" required></textarea>
