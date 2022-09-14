@@ -12,13 +12,6 @@ const data = [
     title: 'Montana First Nations Solar Facility',
     github: 'https://github.com/JAngeloD/Solar-Administration-App',
     demo: 'NA'
-  },
-  {
-    id: 2,
-    image: IMG1,
-    title: 'Montana First Nations Solar Facility',
-    github: 'https://github.com/JAngeloD/Solar-Administration-App',
-    demo: 'NA'
   }
 ]
 
