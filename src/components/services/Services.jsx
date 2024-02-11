@@ -60,6 +60,10 @@ const Services = () => {
             <h3>Automation</h3>
           </div>
           <ul className="service__list">
+          <li>
+              <AiFillCheckCircle className='service__list-icon' />
+              <p>Ansible Automation</p>
+            </li>
             <li>
               <AiFillCheckCircle className='service__list-icon' />
               <p>Configuration Management</p>
@@ -88,6 +92,10 @@ const Services = () => {
               <AiFillCheckCircle className='service__list-icon' />
               <p>Scheduled Scripts</p>
             </li>
+            <li>
+              <AiFillCheckCircle className='service__list-icon' />
+              <p>Terraform Deployments</p>
+            </li>
           </ul>
         </article>
         <article className="service">
@@ -97,7 +105,11 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <AiFillCheckCircle className='service__list-icon' />
-              <p>User Interface Design</p>
+              <p>Back-end Development</p>
+            </li>
+            <li>
+              <AiFillCheckCircle className='service__list-icon' />
+              <p>Database Design and Development</p>
             </li>
             <li>
               <AiFillCheckCircle className='service__list-icon' />
@@ -105,11 +117,15 @@ const Services = () => {
             </li>
             <li>
               <AiFillCheckCircle className='service__list-icon' />
-              <p>Back-end Development</p>
+              <p>Responsive Web Design</p>
             </li>
             <li>
               <AiFillCheckCircle className='service__list-icon' />
-              <p>Database Design and Development</p>
+              <p>Single Page Applications (SPAs)</p>
+            </li>
+            <li>
+              <AiFillCheckCircle className='service__list-icon' />
+              <p>User Interface Design</p>
             </li>
           </ul>
         </article>
