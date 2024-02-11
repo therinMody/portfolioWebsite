@@ -3,7 +3,9 @@ import './portfolio.css';
 
 //images
 import IMG1 from '../../assets/MFN-Capstone.png';
-import IMG2 from '../../assets/terraform.png';
+import IMG2 from '../../assets/terraform.jpg';
+import IMG3 from '../../assets/azure.jpg';
+import IMG4 from '../../assets/aws.jpg';
 
 //Portfolio Data
 const data = [
@@ -11,14 +13,25 @@ const data = [
     id: 1,
     image: IMG1,
     title: 'Montana First Nations Solar Facility',
-    github: 'https://github.com/JAngeloD/Solar-Administration-App',
-    demo: 'NA'
+    link: 'https://github.com/JAngeloD/Solar-Administration-App',
   },
   {
     id: 2,
     image: IMG2,
     title: 'HashiCorp Certified: Terraform Associate (003)',
-    github: 'https://www.credly.com/badges/0f83d13b-bd37-4d5d-8b00-ada792f386df/linked_in?t=runnbu',
+    link: 'https://www.credly.com/badges/0f83d13b-bd37-4d5d-8b00-ada792f386df/linked_in?t=runnbu',
+  },
+  {
+    id: 3,
+    image: IMG3,
+    title: 'Microsoft Certified: Azure Fundamentals',
+    link: 'https://www.credly.com/badges/99f378a7-3135-4f86-9410-25762b0a5d19/linked_in_profile',
+  },
+  {
+    id: 4,
+    image: IMG4,
+    title: 'AWS Certified Cloud Practitioner',
+    link: 'https://www.credly.com/badges/00a8713d-92ad-4551-b2a2-34981cd2d803/linked_in_profile',
   }
 ]
 
@@ -26,11 +39,11 @@ const Portfolio = () => {
   return (
     <section id='portfolio'>
       <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h2>Credentials and Projects</h2>
 
       <div className="container portfolio__container">
         {
-          data.map(({ id, image, title, github, demo }) => {
+          data.map(({ id, image, title, link, demo }) => {
             return (
               <article key={id} className="portfolio__item">
                 <div className="portfolio__item-image">
