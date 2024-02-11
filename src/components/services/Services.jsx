@@ -43,6 +43,10 @@ const Services = () => {
             </li>
             <li>
               <AiFillCheckCircle className='service__list-icon' />
+              <p>Azure - Policy</p>
+            </li>
+            <li>
+              <AiFillCheckCircle className='service__list-icon' />
               <p>Azure - Privileged Identity Management</p>
             </li>
             <li>
