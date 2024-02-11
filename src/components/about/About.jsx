@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './about.css';
 import Me from '../../assets/beach.jpg';
 import { BiAward } from 'react-icons/bi';
@@ -36,7 +36,7 @@ const About = () => {
             <article className='about__card'>
               <BiAward className='about__icon' />
               <h5>Experience</h5>
-              <small>None</small>
+              <small>1+ years at an Enterprise Scale</small>
             </article>
             <article className='about__card'>
               <FiUsers className='about__icon' />
@@ -51,14 +51,12 @@ const About = () => {
           </div>
 
           <p>
-            Hello, I'm Therin Mody and I am passionate about automated solutions.<br/>
+            Hello, I'm Therin Mody and I am passionate about cloud based automated solutions.<br/>
             I am {age} years old and located in Calgary, 
             AB, Canada. <br />
             I am a Southern Alberta Institute of Technology graduate 
-            and currently in pursuit of my AWS Developer
-             - Associate certification.
-            <br />I am open to discuss opportunities and currently seeking new clients. Drop me a message if you're
-            interested in my <a href="#services">services</a>!
+            and currently under contract on the Cloud Tools and Automation team at Suncor Energy Inc.
+            <br />I believe one's life is best served in a continuous pursuit of knowledge. Please check out my <a href="#services">services</a>!
           </p>
 
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
