@@ -15,18 +15,9 @@ const Experience = () => {
             <article className='experience__details'>
               <AiFillCheckCircle className='experience__details-icon' />
               <div>
-                <h4>PowerShell</h4>
+                <h4>CSS</h4>
                 <small className="text-light">Advanced</small>
               </div>
-
-            </article>
-            <article className='experience__details'>
-              <AiFillCheckCircle className='experience__details-icon' />
-              <div>
-                <h4>Terraform</h4>
-                <small className="text-light">Advanced</small>
-              </div>
-
             </article>
             <article className='experience__details'>
               <AiFillCheckCircle className='experience__details-icon' />
@@ -38,14 +29,35 @@ const Experience = () => {
             <article className='experience__details'>
               <AiFillCheckCircle className='experience__details-icon' />
               <div>
-                <h4>CSS</h4>
-                <small className="text-light">Advanced</small>
+                <h4>Java</h4>
+                <small className="text-light">Average</small>
               </div>
             </article>
             <article className='experience__details'>
               <AiFillCheckCircle className='experience__details-icon' />
               <div>
                 <h4>JavaScript</h4>
+                <small className="text-light">Average</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <AiFillCheckCircle className='experience__details-icon' />
+              <div>
+                <h4>Node JS</h4>
+                <small className="text-light">Average</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <AiFillCheckCircle className='experience__details-icon' />
+              <div>
+                <h4>PowerShell</h4>
+                <small className="text-light">Advanced</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <AiFillCheckCircle className='experience__details-icon' />
+              <div>
+                <h4>Python</h4>
                 <small className="text-light">Average</small>
               </div>
             </article>
@@ -59,34 +71,16 @@ const Experience = () => {
             <article className='experience__details'>
               <AiFillCheckCircle className='experience__details-icon' />
               <div>
-                <h4>Java</h4>
-                <small className="text-light">Average</small>
-              </div>
-
-            </article>
-            <article className='experience__details'>
-              <AiFillCheckCircle className='experience__details-icon' />
-              <div>
-                <h4>Python</h4>
-                <small className="text-light">Average</small>
-              </div>
-
-            </article>
-            <article className='experience__details'>
-              <AiFillCheckCircle className='experience__details-icon' />
-              <div>
-                <h4>Node JS</h4>
-                <small className="text-light">Average</small>
-              </div>
-
-            </article>
-            <article className='experience__details'>
-              <AiFillCheckCircle className='experience__details-icon' />
-              <div>
                 <h4>SQL</h4>
                 <small className="text-light">Novice</small>
               </div>
-
+            </article>
+            <article className='experience__details'>
+              <AiFillCheckCircle className='experience__details-icon' />
+              <div>
+                <h4>Terraform</h4>
+                <small className="text-light">Advanced</small>
+              </div>
             </article>
           </div>
         </div>
