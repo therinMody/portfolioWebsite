@@ -36,7 +36,7 @@ const About = () => {
             <article className='about__card'>
               <BiAward className='about__icon' />
               <h5>Experience</h5>
-              <small>1+ years at an Enterprise Scale</small>
+              <small>1+ years Enterprise</small>
             </article>
             <article className='about__card'>
               <FiUsers className='about__icon' />
