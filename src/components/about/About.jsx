@@ -6,6 +6,20 @@ import { FiUsers } from 'react-icons/fi';
 import { AiOutlineFolder } from 'react-icons/ai';
 
 const About = () => {
+  const [age, setAge] = useState(0);
+
+  useEffect(() => {
+    const birthDate = new Date('1998-12-12'); // Replace with your birthdate in YYYY-MM-DD format
+    const today = new Date();
+    let currentAge = today.getFullYear() - birthDate.getFullYear();
+    const monthDiff = today.getMonth() - birthDate.getMonth();
+    if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
+      currentAge--;
+    }
+    setAge(currentAge);
+  }, []);
+
+
   return (
     <section id='about'>
       <h5>Get To Know</h5>
@@ -38,8 +52,8 @@ const About = () => {
           </div>
 
           <p>
-            Hello, I'm Therin Mody and I love to build websites.<br/>
-            I am 23 years old and located in Calgary, 
+            Hello, I'm Therin Mody and I am passionate about automated solutions.<br/>
+            I am {age} years old and located in Calgary, 
             AB, Canada. <br />
             I am a Southern Alberta Institute of Technology graduate 
             and currently in pursuit of my AWS Developer
