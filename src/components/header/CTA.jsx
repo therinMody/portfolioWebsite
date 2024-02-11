@@ -1,5 +1,5 @@
 import React from 'react';
-import Resume from '../../assets/Therin-Resume-Updated.png';
+import Resume from '../../assets/TherinModyResumeRecent.pdf';
 
 const CTA = () => {
   return (
