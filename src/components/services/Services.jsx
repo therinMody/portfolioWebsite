@@ -64,7 +64,7 @@ const Services = () => {
             </li>
             <li>
               <AiFillCheckCircle className='service__list-icon' />
-              <p>Bank-end Development</p>
+              <p>Back-end Development</p>
             </li>
             <li>
               <AiFillCheckCircle className='service__list-icon' />
