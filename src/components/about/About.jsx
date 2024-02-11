@@ -19,7 +19,6 @@ const About = () => {
     setAge(currentAge);
   }, []);
 
-
   return (
     <section id='about'>
       <h5>Get To Know</h5>
