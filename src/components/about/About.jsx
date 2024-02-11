@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './about.css';
 import Me from '../../assets/beach.jpg';
 import { BiAward } from 'react-icons/bi';
@@ -6,6 +6,19 @@ import { FiUsers } from 'react-icons/fi';
 import { AiOutlineFolder } from 'react-icons/ai';
 
 const About = () => {
+  const [age, setAge] = useState(0);
+
+  useEffect(() => {
+    const birthDate = new Date('1998-12-12'); // Replace with your birthdate in YYYY-MM-DD format
+    const today = new Date();
+    let currentAge = today.getFullYear() - birthDate.getFullYear();
+    const monthDiff = today.getMonth() - birthDate.getMonth();
+    if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
+      currentAge--;
+    }
+    setAge(currentAge);
+  }, []);
+
   return (
     <section id='about'>
       <h5>Get To Know</h5>
@@ -23,7 +36,7 @@ const About = () => {
             <article className='about__card'>
               <BiAward className='about__icon' />
               <h5>Experience</h5>
-              <small>None</small>
+              <small>1+ years Enterprise</small>
             </article>
             <article className='about__card'>
               <FiUsers className='about__icon' />
@@ -38,14 +51,12 @@ const About = () => {
           </div>
 
           <p>
-            Hello, I'm Therin Mody and I love to build websites.<br/>
-            I am 23 years old and located in Calgary, 
+            Hello, I'm Therin Mody and I am passionate about cloud based automated solutions.<br/>
+            I am {age} years old and located in Calgary, 
             AB, Canada. <br />
             I am a Southern Alberta Institute of Technology graduate 
-            and currently in pursuit of my AWS Developer
-             - Associate certification.
-            <br />I am open to discuss opportunities and currently seeking new clients. Drop me a message if you're
-            interested in my <a href="#services">services</a>!
+            and currently under contract on the Cloud Tools and Automation team at Suncor Energy Inc.
+            <br />I believe one's life is best served in a continuous pursuit of knowledge. Please check out my <a href="#services">services</a>!
           </p>
 
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>

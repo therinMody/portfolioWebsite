@@ -13,8 +13,8 @@ const Footer = () => {
         <li><a href="#">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Experience</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#services">Specialities</a></li>
+        <li><a href="#portfolio">Credentials and Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
 
@@ -23,8 +23,6 @@ const Footer = () => {
         <a href='https://www.linkedin.com/in/therin-mody/' target="_blank" rel='noreferrer'><BsLinkedin/></a>
         <a href='https://github.com/therinMody' target="_blank"  rel='noreferrer'><BsGithub/></a>
       </div>
-
-      
     </footer>
   )
 }
