@@ -6,8 +6,7 @@ const Services = () => {
   return (
     <section id='services'>
       <h5>What I Offer</h5>
-      <h2>Services</h2>
-
+      <h2>Specialities</h2>
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
@@ -16,35 +15,77 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <AiFillCheckCircle className='service__list-icon' />
-              <p>Automated Solutions</p>
+              <p>AWS - Amplify</p>
             </li>
             <li>
               <AiFillCheckCircle className='service__list-icon' />
-              <p>Website hosting</p>
+              <p>Azure - Arc Onboarding and Management</p>
             </li>
             <li>
               <AiFillCheckCircle className='service__list-icon' />
-              <p>Cloud Infrastructure</p>
+              <p>Azure - EntraID Administration</p>
             </li>
             <li>
               <AiFillCheckCircle className='service__list-icon' />
-              <p>Scaling</p>
+              <p>Azure - Function Apps</p>
             </li>
             <li>
               <AiFillCheckCircle className='service__list-icon' />
-              <p>Data Storage</p>
+              <p>Azure - Landing Zones</p>
             </li>
             <li>
               <AiFillCheckCircle className='service__list-icon' />
-              <p>Load Balancing</p>
+              <p>Azure - Monitor</p>
             </li>
             <li>
               <AiFillCheckCircle className='service__list-icon' />
-              <p>Metrics, Tracking, and Logging</p>
+              <p>Azure - Networking</p>
+            </li>
+            <li>
+              <AiFillCheckCircle className='service__list-icon' />
+              <p>Azure - Privileged Identity Management</p>
+            </li>
+            <li>
+              <AiFillCheckCircle className='service__list-icon' />
+              <p>Azure - Virtual Machines</p>
             </li>
           </ul>
         </article>
-
+        <article className="service">
+          <div className="service__head">
+            <h3>Automation</h3>
+          </div>
+          <ul className="service__list">
+            <li>
+              <AiFillCheckCircle className='service__list-icon' />
+              <p>Configuration Management</p>
+            </li>
+            <li>
+              <AiFillCheckCircle className='service__list-icon' />
+              <p>Continuous Integration/Continuous Deployment (CI/CD)</p>
+            </li>
+            <li>
+              <AiFillCheckCircle className='service__list-icon' />
+              <p>Data ETL (Extract, Transform, Load)</p>
+            </li>
+            <li>
+              <AiFillCheckCircle className='service__list-icon' />
+              <p>Design and Implementation</p>
+            </li>
+            <li>
+              <AiFillCheckCircle className='service__list-icon' />
+              <p>Infrastructure as Code</p>
+            </li>
+            <li>
+              <AiFillCheckCircle className='service__list-icon' />
+              <p>Monitoring and Alerting</p>
+            </li>
+            <li>
+              <AiFillCheckCircle className='service__list-icon' />
+              <p>Scheduled Scripts</p>
+            </li>
+          </ul>
+        </article>
         <article className="service">
           <div className="service__head">
             <h3>Web Development</h3>
@@ -56,10 +97,6 @@ const Services = () => {
             </li>
             <li>
               <AiFillCheckCircle className='service__list-icon' />
-              <p>Miscellaneous Design Work (Logos, Letterheads, etc)</p>
-            </li>
-            <li>
-              <AiFillCheckCircle className='service__list-icon' />
               <p>Front-end Development</p>
             </li>
             <li>
@@ -68,39 +105,7 @@ const Services = () => {
             </li>
             <li>
               <AiFillCheckCircle className='service__list-icon' />
-              <p>Database Design</p>
-            </li>
-            <li>
-              <AiFillCheckCircle className='service__list-icon' />
-              <p>Database Development</p>
-            </li>
-          </ul>
-        </article>
-
-        <article className="service">
-          <div className="service__head">
-            <h3>IT Consulting</h3>
-          </div>
-          <ul className="service__list">
-            <li>
-              <AiFillCheckCircle className='service__list-icon' />
-              <p>System Design</p>
-            </li>
-            <li>
-              <AiFillCheckCircle className='service__list-icon' />
-              <p>E-commerce applications</p>
-            </li>
-            <li>
-              <AiFillCheckCircle className='service__list-icon' />
-              <p>Security</p>
-            </li>
-            <li>
-              <AiFillCheckCircle className='service__list-icon' />
-              <p>Data Storage and Utilization</p>
-            </li>
-            <li>
-              <AiFillCheckCircle className='service__list-icon' />
-              <p>Willing to discuss solutions to any IT related problem you may have</p>
+              <p>Database Design and Development</p>
             </li>
           </ul>
         </article>
