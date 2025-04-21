@@ -105,7 +105,7 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <AiFillCheckCircle className='service__list-icon' />
-              <p>Back-end Development</p>
+              <p>Back-end Web Development</p>
             </li>
             <li>
               <AiFillCheckCircle className='service__list-icon' />
@@ -113,15 +113,7 @@ const Services = () => {
             </li>
             <li>
               <AiFillCheckCircle className='service__list-icon' />
-              <p>Front-end Development</p>
-            </li>
-            <li>
-              <AiFillCheckCircle className='service__list-icon' />
-              <p>Responsive Web Design</p>
-            </li>
-            <li>
-              <AiFillCheckCircle className='service__list-icon' />
-              <p>Single Page Applications (SPAs)</p>
+              <p>Front-end Web Development</p>
             </li>
             <li>
               <AiFillCheckCircle className='service__list-icon' />

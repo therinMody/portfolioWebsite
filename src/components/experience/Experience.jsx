@@ -15,35 +15,14 @@ const Experience = () => {
             <article className='experience__details'>
               <AiFillCheckCircle className='experience__details-icon' />
               <div>
-                <h4>CSS</h4>
+                <h4>Ansible</h4>
                 <small className="text-light">Advanced</small>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <AiFillCheckCircle className='experience__details-icon' />
-              <div>
-                <h4>HTML</h4>
-                <small className="text-light">Advanced</small>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <AiFillCheckCircle className='experience__details-icon' />
-              <div>
-                <h4>Java</h4>
-                <small className="text-light">Average</small>
               </div>
             </article>
             <article className='experience__details'>
               <AiFillCheckCircle className='experience__details-icon' />
               <div>
                 <h4>JavaScript</h4>
-                <small className="text-light">Average</small>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <AiFillCheckCircle className='experience__details-icon' />
-              <div>
-                <h4>Node JS</h4>
                 <small className="text-light">Average</small>
               </div>
             </article>
@@ -71,13 +50,6 @@ const Experience = () => {
             <article className='experience__details'>
               <AiFillCheckCircle className='experience__details-icon' />
               <div>
-                <h4>SQL</h4>
-                <small className="text-light">Novice</small>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <AiFillCheckCircle className='experience__details-icon' />
-              <div>
                 <h4>Terraform</h4>
                 <small className="text-light">Advanced</small>
               </div>
@@ -93,13 +65,6 @@ const Experience = () => {
             <article className='experience__details'>
               <AiFillCheckCircle className='experience__details-icon' />
               <div>
-                <h4>Ansible</h4>
-                <small className="text-light">Average</small>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <AiFillCheckCircle className='experience__details-icon' />
-              <div>
                 <h4>AWS</h4>
                 <small className="text-light">Novice</small>
               </div>
@@ -108,7 +73,7 @@ const Experience = () => {
               <AiFillCheckCircle className='experience__details-icon' />
               <div>
                 <h4>Azure</h4>
-                <small className="text-light">Average</small>
+                <small className="text-light">Advanced</small>
               </div>
             </article>
             <article className='experience__details'>
@@ -116,13 +81,6 @@ const Experience = () => {
               <div>
                 <h4>GitHub</h4>
                 <small className="text-light">Advanced</small>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <AiFillCheckCircle className='experience__details-icon' />
-              <div>
-                <h4>IBM Cloud</h4>
-                <small className="text-light">Novice</small>
               </div>
             </article>
             <article className='experience__details'>
@@ -136,13 +94,6 @@ const Experience = () => {
               <AiFillCheckCircle className='experience__details-icon' />
               <div>
                 <h4>Windows</h4>
-                <small className="text-light">Novice</small>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <AiFillCheckCircle className='experience__details-icon' />
-              <div>
-                <h4>WSL</h4>
                 <small className="text-light">Novice</small>
               </div>
             </article>
