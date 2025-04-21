@@ -23,7 +23,7 @@ const data = [
   },
   {
     id: 3,
-    image: IMG1,
+    image: IMG2,
     title: 'Microsoft Certified: Azure Administrator Associate',
     link: 'https://learn.microsoft.com/en-us/users/therinmody-7942/credentials/fed4ca4bca8eff66?ref=https%3A%2F%2Fwww.linkedin.com%2F',
   },
