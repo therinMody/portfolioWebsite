@@ -36,7 +36,7 @@ const About = () => {
             <article className='about__card'>
               <BiAward className='about__icon' />
               <h5>Experience</h5>
-              <small>1+ years Enterprise</small>
+              <small>2+ years Enterprise</small>
             </article>
             <article className='about__card'>
               <FiUsers className='about__icon' />
@@ -51,13 +51,12 @@ const About = () => {
           </div>
 
           <p>
-            Hello, I'm Therin Mody and I am passionate about cloud based automated solutions.<br/>
-            I am {age} years old and located in Calgary, 
-            AB, Canada. <br />
-            I am a Southern Alberta Institute of Technology graduate 
-            and currently under contract on the Cloud Tools and Automation team at Suncor Energy Inc.
-            <br />I believe one's life is best served in a continuous pursuit of knowledge. Please check out my <a href="#services">services</a>!
+            Hello, I'm Therin Mody—a Cloud Platform Automation Analyst based in Calgary, Alberta. I help businesses streamline their cloud operations through scalable, automated solutions. <br />
+            With over two years of experience delivering production-grade infrastructure using Azure, Terraform, and CI/CD practices, I bring both technical depth and a commitment to reliable, future-proof deployments. <br />
+            I’ve supported enterprise-scale environments and led automation initiatives at Suncor Energy Inc., and I’m now available for fully remote contract opportunities across Canada. <br />
+            If you're looking to modernize your cloud platform or accelerate automation, explore my <a href="#services">services</a>—I’d be glad to work with you.
           </p>
+
 
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
         </div>
